@@ -18,23 +18,17 @@ end
 
 xgui = {}
 
--- require("./widget/widgetBase")
 require("./system/eventhandler")
 require("./system/renderer")
 
-local label_base = require("./widget/widgets/label")
+-- local label_base = require("./widget/widgets/label")
 
-local label = label_base(nil)
-label.create()
-label.draw(nil, nil)
-label.destroy()
+-- local label = label_base(nil)
+-- label.create()
+-- label.draw(nil, nil)
+-- label.destroy()
 
--- print("----- Metatable -----")
--- dump(getmetatable(label))
--- print("---------------------")
--- dump(label)
-
-return label
+return xgui
 
 -- return xgui
 
