@@ -1,5 +1,4 @@
-local oop = {
-};
+local oop = {};
 
 function oop.make(c)
 	setmetatable(c, {

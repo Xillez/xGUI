@@ -1,0 +1,6 @@
+-- local original_type = type
+-- 
+-- function type(table)
+--     if () then
+--         --
+--     end
