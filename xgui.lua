@@ -33,4 +33,24 @@ label.destroy()
 -- print("---------------------")
 -- dump(label)
 
-return xgui
+-- return xgui
+
+
+
+
+
+-- Table printing function:
+--
+-- function dump(t, level)
+--     level = level or 0
+--     for i,v in pairs(t) do
+--         io.write(string.rep('  ', level))
+--         io.write(i..': ')
+--         if (type(v) == 'table') then
+--             print ''
+--             dump(v, level + 1)
+--         else
+--             print(tostring(v))
+--         end
+--     end
+-- end

@@ -6,7 +6,7 @@ xgui.renderer = {
     gpu = nil,
     screen = nil,
     res = nil,
-    aspect = nil,
+    aspect = 1,
     redrawOnEventOnly = false,
     redrawTick = 20
 }
@@ -27,6 +27,7 @@ end
 
 function xgui.render()
     gpu.fill(1, 1, w, h, " ") -- Clear screen
+    
 
     for i=1,len(xgui.widgets) do
         xgui.widgets[i].draw(xgui.renderer.gpu, xgui.renderer.screen)
